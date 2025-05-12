@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header-section{
+    background-image: url('https://placehold.co/1920x1080');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}    
+
+.header-div p{
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+
+
+.header-section h1{
+    font-weight: 600;
+}
+
+.header-section p{
+    font-weight: 700;
+}
+
+.btn-custom{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: azure;
+    border-color: red;
+    padding: 12px 25px;
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 2px;
+    transition: background-color 0.5s ease;
+    font-weight: 550;
+}
+
+.btn-custom:hover{
+    background-color: red;
+    color: white;
+}
+
+.feature-section h2{
+    font-weight: 550;
+}
+.feature-section{
+    padding: 60px 0px;
+}
+
+.product-section{
+    background-color: rgb(161, 158, 155);
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease;
+}
+.product-section img{
+    margin-bottom: 10px;
+}
+.product-section h5{
+    margin-bottom: 20px;
+    font-weight: 550;
+}
+
+.product-section:hover{
+    transform: translateY(-5px);
+}
+
+.review-section h2{
+    font-weight: 550;
+}
+
+.review-card{
+    background-color: rgb(161, 158, 155);
+    padding: 30px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    transition: transform 0.5s ease;
+    box-shadow: 0px 15px 6px 0px rgba(0,0,0,0.1);
+}
+
+.review-card:hover{
+    transform: translateY(-5px);
+}
+.Checkout{
+    margin-bottom: 70px;
+}
+
+.Checkout h2{
+    font-weight: 550;
+    padding-bottom: 30px;
+}
+.custom-form{
+    max-width: 600px;
+    margin: auto;
+    background-color: rgba(133, 143, 143, 0.801);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 21px 22px 35px 0px rgb(37, 36, 36);
+    font-weight: 550;
+}
+.custom-button{
+    background-color: red;
+    width: 100%;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.custom-button:hover{
+    transform: translateY(5px);
+}
+
+.footer-img img{
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    margin-left: 480px;
+    margin-bottom: 25px;
+}
+.footer-a{
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+
+.footer-a .fb{
+    margin-left: 470px;
+    margin-right: 10px;
+    transition: color 0.5s ease;
+}
+
+.footer-a .ig{
+    margin-right: 10px;
+    transition: color 0.5s ease;
+}
+
+.footer-a .tw{
+    margin-right: 10px;
+    transition: color 0.5s ease;
+}
+
+.footer-a .yt{
+    margin-right: 10px;
+    transition: color 0.5s ease;
+}
+
+.footer-a .li{
+    margin-right: 10px;
+    transition: color 0.5s ease;
+}
+
+.fb:hover{
+    color: rgb(105, 98, 98);
+}
+.ig:hover{
+    color: rgb(105, 98, 98);
+}
+.yt:hover{
+    color: rgb(105, 98, 98);
+}
+.tw:hover{
+    color: rgb(105, 98, 98);
+}
+.li:hover{
+    color: rgb(105, 98, 98);
+}
+
+.footer p{
+    font-weight: 550;
+}
