@@ -5,7 +5,7 @@
 }
 
 .header-section{
-    background-image: url('https://placehold.co/1920x1080');
+    background-image: url(image/banner\ \(2\).jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -33,12 +33,13 @@
 .btn-custom{
     text-decoration: none;
     color: rgb(0, 0, 0);
-    background-color: azure;
-    border-color: red;
+    background-color: rgb(223, 101, 101);
+    /* border-color: red; */
     padding: 12px 25px;
-    border-style: solid;
+    border-style: none;
     border-radius: 50px;
     border-width: 2px;
+    transition: color 0.5s ease;
     transition: background-color 0.5s ease;
     font-weight: 550;
 }
@@ -65,6 +66,8 @@
 }
 .product-section img{
     margin-bottom: 10px;
+    height: 60px;
+    width: 60px;
 }
 .product-section h5{
     margin-bottom: 20px;
@@ -100,6 +103,8 @@
 
 .review-card img{
     border-radius: 100px;
+    height: 80px;
+    width: 80px;
 }
 .Checkout{
     margin-bottom: 70px;
@@ -132,61 +137,48 @@
     transform: translateY(5px);
 }
 
-.footer-img img{
-    border-radius: 100px;
-    height: 150px;
-    width: 150px;
-    margin-left: 480px;
-    margin-bottom: 25px;
-}
-.footer-a{
-    margin-bottom: 25px;
-    font-size: 1.5rem;
-}
+/* footer section */
 
 
-.footer-a .fb{
-    margin-left: 470px;
-    margin-right: 10px;
+.footer {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .footer-logo {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    font-size: 24px;
+    color: red;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: inherit;
     transition: color 0.5s ease;
-}
+  }
 
-.footer-a .ig{
-    margin-right: 10px;
-    transition: color 0.5s ease;
-}
-
-.footer-a .tw{
-    margin-right: 10px;
-    transition: color 0.5s ease;
-}
-
-.footer-a .yt{
-    margin-right: 10px;
-    transition: color 0.5s ease;
-}
-
-.footer-a .li{
-    margin-right: 10px;
-    transition: color 0.5s ease;
-}
-
-.fb:hover{
-    color: rgb(105, 98, 98);
-}
-.ig:hover{
-    color: rgb(105, 98, 98);
-}
-.yt:hover{
-    color: rgb(105, 98, 98);
-}
-.tw:hover{
-    color: rgb(105, 98, 98);
-}
-.li:hover{
-    color: rgb(105, 98, 98);
-}
-
-.footer p{
-    font-weight: 550;
-}
+  .social-icons a:hover{
+    color: #333;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    color: #333;
+  }
+  

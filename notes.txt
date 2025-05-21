@@ -1,0 +1,100 @@
+       <footer class="footer">
+        <div class="container">
+            <div class="footer-content row">
+                <div class="footer-logo col-12 col-sm-12 col-md-12">
+                    <img src="images/logo.png" height="100" width="180">
+                </div>
+                <div class="social-icons col-12 col-sm-12 col-md-12 text-center">
+                    <a href="#" class="fb"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <p class="text-center mt-3">&copy 2025 Landing Page. All rights reserved</p>
+        </div>
+       </footer>
+
+
+           <footer class="footer">
+        <div class="container">
+            <div class="footer-img">
+                <img src="image/ChatGPT Image May 13, 2025, 12_12_18 AM.png" alt="">
+            </div>
+            <div class="footer-a">
+                <a class="fb" href=""><i class="fa-brands fa-facebook"></i></a>
+                <a class="tw" href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a class="yt" href=""><i class="fa-brands fa-youtube"></i></a>
+                <a class="li" href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a class="ig" href=""><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <div>
+                <p class="text-center">&copy2025 Landing page. All Rights Reserved.Created by Nahid</p>
+            </div>
+        </div>
+    </footer>
+
+    ChatGPT
+
+
+
+    <footer class="footer">
+  <div class="footer-content">
+    <img src="image/ChatGPT Image May 13, 2025, 12_12_18 AM.png" alt="Landing Page Logo" class="footer-logo" />
+    
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+    </div>
+
+    <p class="footer-text">© 2025 Landing Page. All rights reserved. Created by Nahid</p>
+  </div>
+</footer>
+
+
+.footer-logo{
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.footer-logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    justify-content: center;
+}
+
+.social-icons{
+    padding: 10px;
+    /* background-color: blue; */
+}
+
+.social-icons a{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    transition: color 0.5s ease;
+
+}
+
+.social-icons a:hover{
+    color: #494d52;
+}
+
+.social-icons .fb{
+    color: #0866FF;
+
+}
+
+.social-icons .youtube{
+    color: ##0866FF;
+
+}
+
+.social-icons .twitter{
+    color: #0866FF;
+
+}
